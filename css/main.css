@@ -6,3 +6,41 @@ html {
 *, *::before, *::after {
   box-sizing: inherit;
 }
+
+section {
+  background-color: #f2f2f2;
+}
+
+img {
+  width: 100px;
+}
+
+.div1 {
+  background-color: #e2e2e2;
+}
+
+.div2 {
+  background-color: #ccc;
+}
+
+.div3 {
+  background-color: #aaa;
+}
+
+.div4 {
+  background-color: #999;
+}
+
+.btn {
+  display: inline-block;
+  padding: .51em .75em;
+  background-color: #333;
+  border-radius: 8px;
+  color: #fff;
+  font-size: .875rem;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background-color: #999;
+}
