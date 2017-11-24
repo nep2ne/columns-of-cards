@@ -8,41 +8,71 @@ html {
   box-sizing: inherit;
 }
 
-section {
+body {
   background-color: #f2f2f2;
 }
 
-img {
-  width: 100px;
+div {
+  display: inline-block;
+  margin: 0;
+  padding: 0 .75em;
+}
+
+.column1 {
+  background-color: #e2e2e2;
+  border-left: 1px solid #000;
+  border-right: 1px solid #000;
+  float: left;
+  width: 25%;
+}
+
+.column2 {
+  background-color: #ccc;
+  border-right: 1px solid #000;
+  float: left;
+  width: 25%;
+}
+
+.column3 {
+  background-color: #aaa;
+  border-right: 1px solid #000;
+  float: left;
+  width: 25%;
+}
+
+.column4 {
+  background-color: #999;
+  border-right: 1px solid #000;
+  float: left;
+  width: 25%;
 }
 
 h1 {
   font-size: 2rem;
+  margin: 1.5rem;
+  text-align: center;
+}
+
+div .img {
+  display: block;
+  text-align: center;
+}
+
+img {
+  display: block;
+  padding: 1.5rem 0 0;
+  text-align: center;
+  width: 100%;
 }
 
 h2 {
   font-size: 1rem;
+  font-weight: bold;
 }
 
 h3 {
   font-size: .875rem;
   font-style: italic;
-}
-
-.div1 {
-  background-color: #e2e2e2;
-}
-
-.div2 {
-  background-color: #ccc;
-}
-
-.div3 {
-  background-color: #aaa;
-}
-
-.div4 {
-  background-color: #999;
 }
 
 .btn {
@@ -52,7 +82,12 @@ h3 {
   border-radius: 8px;
   color: #fff;
   font-size: .875rem;
+  margin: 0 .2rem 2rem;
   text-decoration: none;
+}
+
+.btn-small {
+  font-size: .875rem;
 }
 
 .btn:hover {
