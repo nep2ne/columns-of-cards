@@ -10,6 +10,7 @@ html {
 
 body {
   background-color: #f2f2f2;
+  margin: 0;
 }
 
 div {
@@ -59,10 +60,10 @@ div .img {
 }
 
 img {
-  display: block;
+  display: inline-block;
   padding: 1.5rem 0 0;
   text-align: center;
-  width: 100%;
+  width: 100px;
 }
 
 h2 {
